@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "researchxtract"
+version = "0.1.0"
+description = "ResearchXtract - Multi-Process Academic Information Retrieval Engine"
+requires-python = ">=3.10"
+dependencies = []          # Phase 1 (DSA core) uses only the Python standard library
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

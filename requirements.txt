@@ -1,0 +1,5 @@
+# Phase 1 (DSA core) needs NO third-party packages.
+pytest>=8.0          # testing
+# Added in later phases (do not install yet):
+# requests           # Phase 2 - OpenAlex collector (A2)
+# mysql-connector-python   # Phase 2 - MySQL (A2)
